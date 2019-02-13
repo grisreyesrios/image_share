@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <h1>Welcome to Image Share App!</h1>
+  <h1 align="center">Welcome to Image Share App!</h1>
   <div class="Container">
   {{> images}}
 </div>
@@ -13,7 +13,7 @@
 <template name="images">
   <div class="row">
   {{#each images}}
-  <div class="col-xs-12 col-md-3">
+  <div class="col-xs-6 col-md-2">
     <div class="thumbnail">
        <img src="{{img_src}}" alt="{{img_alt}}"/>
     <div class="caption">
