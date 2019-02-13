@@ -3,15 +3,17 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Welcome to Image Share App!</h1>
 
   {{> images}}
-  {{> info}}
 
 </body>
 
 <template name="images">
-  <img src="{{img_src}}" alt="{{img_alt}}" width="100%" />
+  {{#each images}}
+  <img src="{{img_src}}" alt="{{img_alt}}"/>
+  }
+  {{/each}}
 </template>
 
 <template name="info">
