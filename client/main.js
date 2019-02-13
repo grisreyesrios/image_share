@@ -15,7 +15,7 @@ if (Meteor.isClient) {
   },
   {
     img_src:"wallpaper3.jpg",
-    img_alt:"Smokecolorr"
+    img_alt:"Smokecolors"
   },
   ];
 
